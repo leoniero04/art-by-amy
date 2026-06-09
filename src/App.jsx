@@ -669,9 +669,9 @@ function WorksCarousel() {
         <div className="section-header section-header-split" data-reveal="up">
           <div>
             <h2 className="works-title">
-              <span className="title-strong">Preview the collection.</span>
+              <span className="title-strong">Preview the collection</span>
               <br />
-              <span className="title-muted">Explore the first six signed prints.</span>
+              <span className="title-muted">Explore the first six signed prints</span>
             </h2>
           </div>
 
@@ -1039,7 +1039,7 @@ function DetailMoreWorks({ currentId }) {
             <h2 className="works-title">
               <span className="title-strong">Explore more works</span>
               <br />
-              <span className="title-muted">Continue with the remaining signed prints.</span>
+              <span className="title-muted">Continue with the remaining signed prints</span>
             </h2>
           </div>
 
