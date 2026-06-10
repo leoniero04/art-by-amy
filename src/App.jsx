@@ -29,12 +29,35 @@ import zitatThree from "./assets/zitat_3.png";
 import strokeOne from "./assets/stroke_1.png";
 import strokeTwo from "./assets/stroke_2.png";
 
+import mockupArtwork01A from "./assets/mockup-drip-bloom-01-01.png";
+import mockupArtwork01B from "./assets/mockup-drip-bloom-01-02.png";
+
+import mockupArtwork02A from "./assets/mockup-drip-bloom-02-01.png";
+import mockupArtwork02B from "./assets/mockup-drip-bloom-02-02.png";
+
+import mockupArtwork03A from "./assets/mockup-drip-bloom-03-01.png";
+import mockupArtwork03B from "./assets/mockup-drip-bloom-03-02.png";
+
+import mockupArtwork04A from "./assets/mockup-drip-bloom-04-01.png";
+import mockupArtwork04B from "./assets/mockup-drip-bloom-04-02.png";
+
+import mockupArtwork05A from "./assets/mockup-drip-bloom-05-01.png";
+import mockupArtwork05B from "./assets/mockup-drip-bloom-05-02.png";
+
+import mockupArtwork06A from "./assets/mockup-drip-bloom-06-01.png";
+import mockupArtwork06B from "./assets/mockup-drip-bloom-06-02.png";
+
 const artworks = [
   {
     id: "pastel-arrangement",
     title: "Pastel Arrangement",
     image: artwork01,
-    detailImages: [artwork01, closeArtwork01],
+    detailImages: [
+      artwork01,
+      closeArtwork01,
+      mockupArtwork01A,
+      mockupArtwork01B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
@@ -48,7 +71,12 @@ const artworks = [
     id: "green-intensity",
     title: "Green Intensity",
     image: artwork02,
-    detailImages: [artwork02, closeArtwork02],
+    detailImages: [
+      artwork02,
+      closeArtwork02,
+      mockupArtwork02A,
+      mockupArtwork02B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
@@ -62,7 +90,12 @@ const artworks = [
     id: "night-flower",
     title: "Night Flower",
     image: artwork03,
-    detailImages: [artwork03, closeArtwork03],
+    detailImages: [
+      artwork03,
+      closeArtwork03,
+      mockupArtwork03A,
+      mockupArtwork03B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
@@ -76,7 +109,12 @@ const artworks = [
     id: "held-in-blue",
     title: "Held in Blue",
     image: artwork04,
-    detailImages: [artwork04, closeArtwork04],
+    detailImages: [
+      artwork04,
+      closeArtwork04,
+      mockupArtwork04A,
+      mockupArtwork04B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
@@ -90,7 +128,12 @@ const artworks = [
     id: "rose-veil",
     title: "Rose Veil",
     image: artwork05,
-    detailImages: [artwork05, closeArtwork05],
+    detailImages: [
+      artwork05,
+      closeArtwork05,
+      mockupArtwork05A,
+      mockupArtwork05B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
@@ -104,7 +147,12 @@ const artworks = [
     id: "deep-bloom",
     title: "Deep Bloom",
     image: artwork06,
-    detailImages: [artwork06, closeArtwork06],
+    detailImages: [
+      artwork06,
+      closeArtwork06,
+      mockupArtwork06A,
+      mockupArtwork06B,
+    ],
     label: "Limited print",
     meta: "Mixed-media original · 2026",
     size: "50 × 70 cm",
